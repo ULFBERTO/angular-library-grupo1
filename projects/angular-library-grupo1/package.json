@@ -1,8 +1,8 @@
 {
   "name": "angular-library-grupo1",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "description": "Biblioteca de componentes Angular con estilos personalizados",
-  "author": "Tu Nombre",
+  "author": "Andres",
   "private": false,
   "repository": {
     "type": "git",
