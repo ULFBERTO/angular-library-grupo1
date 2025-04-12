@@ -1,0 +1,48 @@
+@import '../styles/variables';
+
+.btn {
+  padding: $spacing-medium;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: $font-family-base;
+  transition: all 0.3s ease;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+.primary {
+  background-color: $primary-color;
+  color: white;
+
+  &:hover:not(:disabled) {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+.secondary {
+  background-color: $secondary-color;
+  color: white;
+
+  &:hover:not(:disabled) {
+    background-color: darken($secondary-color, 10%);
+  }
+}
+
+.small {
+  padding: $spacing-small;
+  font-size: 0.875rem;
+}
+
+.medium {
+  padding: $spacing-medium;
+  font-size: 1rem;
+}
+
+.large {
+  padding: $spacing-large;
+  font-size: 1.125rem;
+}

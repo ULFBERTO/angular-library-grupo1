@@ -1,0 +1,23 @@
+{
+  "name": "angular-library-grupo1",
+  "version": "0.0.8",
+  "description": "Biblioteca de componentes Angular con estilos personalizados",
+  "author": "Tu Nombre",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/angular-library-grupo1"
+  },
+  "keywords": ["angular", "components", "library", "styles"],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0",
+    "@angular/compiler": "^19.0.0",
+    "@angular/platform-browser": "^19.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
