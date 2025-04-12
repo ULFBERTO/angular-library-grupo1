@@ -6,7 +6,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/tu-usuario/angular-library-grupo1"
+    "url": "https://github.com/ULFBERTO/angular-library-grupo1.git"
   },
   "keywords": ["angular", "components", "library", "styles"],
   "license": "MIT",
