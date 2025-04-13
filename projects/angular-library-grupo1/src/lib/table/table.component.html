@@ -1,16 +1,16 @@
-<table class="min-w-full border-collapse shadow-md">
-  <thead class="bg-gray-200">
+<table class="styled-table">
+  <thead>
       <tr>
           @for (header of headers; track header) {
-              <th class="px-4 py-2 text-left text-sm font-medium text-gray-700 border-b border-gray-300 uppercase tracking-wider">{{header}}</th>
+              <th>{{header}}</th>
           }
       </tr>
   </thead>
-  <tbody class="bg-white">
+  <tbody>
       @for (row of data; track row) {
-          <tr class="hover:bg-gray-100">
+          <tr>
               @for (cell of row; track cell) {
-                  <td class="px-4 py-2 border-b border-gray-300 text-sm text-gray-800">{{cell}}</td>
+                  <td>{{cell}}</td>
               }
           </tr>
       }
